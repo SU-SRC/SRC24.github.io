@@ -1,0 +1,35 @@
+body {
+    margin: 8px 10%;
+}
+* {
+    font-family: 'Microsoft Sans Serif', 'Roboto', 'DengXian', '等线', sans-serif;
+}
+p {
+    margin: 16px 3px;
+}
+ul {
+    padding-left: 27px;
+}
+li {
+    line-height: 1.4;
+}
+th, td {
+    text-align: left;
+    vertical-align: top;
+}
+hr {
+    margin: 24px 0;
+}
+a {
+    color: #0060c0;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px solid #0060c0;
+}
+@media (max-width: 1200px)
+{
+    body {
+        margin: 8px;
+    }
+}
