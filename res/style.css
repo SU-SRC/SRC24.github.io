@@ -27,6 +27,28 @@ a {
 a:hover {
     border-bottom: 1px solid #0060c0;
 }
+.table {
+    display: table;
+    width: 100%;
+}
+.row {
+    display: table-row;
+}
+.column {
+    display: table-cell;
+    text-align: center;
+    width: 50%;
+}
+@media (max-width: 599px)
+{
+    .column {
+        display: table-row;
+    }
+    .cell {
+        display: table-cell;
+        text-align: left;
+    }
+}
 @media (max-width: 1200px)
 {
     body {
