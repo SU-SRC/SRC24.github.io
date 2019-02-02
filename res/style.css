@@ -3,10 +3,6 @@ body {
 }
 * {
     font-family: 'Microsoft Sans Serif', 'Roboto', 'DengXian', '等线', sans-serif;
-    font-size: 16px !important;
-}
-h3 {
-    font-size: 19px !important;
 }
 p {
     margin: 16px 3px;
@@ -18,6 +14,7 @@ li {
     line-height: 1.4;
 }
 th, td {
+    font-size: 16px !important;
     text-align: left;
     vertical-align: top;
 }
