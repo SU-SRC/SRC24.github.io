@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 25px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+body {
+	background: #030303 linear-gradient(#030303, #111111 35%, #555555);
+	align-items: center;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	margin: 0;
+	user-select: none;
+	width: 100vw;
+}
+
+img#icon {
+	border-radius: 10px;
+	pointer-events: none;
+	width: 230px;
+}
+
+#zhtitle {
+	font-size: 50px;
+	letter-spacing: 3px;
+	padding-left: 3px;
+	margin-top: 1.25rem;
+}
+
+div {
+	margin-top: 2.25rem;
+}
+
+.th-btn {
+	background-color: var(--btn);
+	border-radius: 10px;
+	color: #ffffff;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px #000000;
+	transition: 250ms;
+}
+
+.th-btn:hover {
+	background-color: var(--btn-hover);
+}
+
+#socmed a {
+	margin-left: 15px;
+}
+
+#socmed a:first-child {
+	margin-left: 0;
+}
+
+#socmed a:first-child img {
+	border-radius: 50%;
+}
+
+#socmed a:hover img {
+	background: #030303;
+	transition: 1.25s;
+}
+
+#socmed img {
+	border-radius: 21px;
+	padding: 8px;
+	width: 66px;
+}
+
+@media (orientation: portrait) {
+	* {
+		font-size: 21px;
+	}
+
+	#zhtitle {
+		font-size: 42px;
+	}
+}
